@@ -1,0 +1,279 @@
+///////////recuerda que tu solo modificaras el de vinculacion ya no le muevas al de inicio/////////
+
+
+
+
+
+cd desktop
+cd "el mobre de tu carpeta en mi caso -->Theo"
+git clone "enlace del repositorio a clonar"
+cd PaginaUTSC
+/////luego abres el html vinculacion con visual studio code y pegas el codigo de vinculacion
+que te habia mandado que la carpeta se llamaba tarea si no lo tienes te dejo aqui el codigo
+
+
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UTSC</title>
+    
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estructura.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mapa_de_sitio.css" type="text/css" />
+	<link rel="stylesheet" href="../css/estilo_scrollbar.css" type="text/css" />
+	<link rel="stylesheet" href="../css/estilo_submenu.css" type="text/css" />
+    <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../accesibilidad/css/colorpicker.css" type="text/css" />
+	<link rel="stylesheet" href="../accesibilidad/css/colorpicker2.css" type="text/css" />
+    
+    
+    <script type="text/javascript" src="../accesibilidad/js/jquery-1.10.2.js"></script>  
+    <script src="../../inc.freefind.com/inc/ffse-overlay.min.js" async></script>
+	<script type="text/javascript" src="../accesibilidad/js/colorpicker.js"></script>
+	<script type="text/javascript" src="../accesibilidad/js/colorpicker2.js"></script>
+    <script type="text/javascript" src="../accesibilidad/js/eye.js"></script>
+    <script type="text/javascript" src="../accesibilidad/js/layout20b9.js?ver=1.0.2"></script>
+    <script type="text/javascript" src="../accesibilidad/js/aumento_texto.js"></script>
+    <script type="text/javascript" src="../accesibilidad/js/jquery.transit.min.js"></script>
+
+    
+    <style>
+		@media (max-width: 800px) {
+			.div_titulo {
+				height:200px !important;
+				padding-top:1px !important;
+				background-size:200% 100% !important;
+			}
+		}
+		section.recurso_tabs {
+			margin-top: 10px;
+			zoom: 1;
+			position: relative;
+			height: auto;
+		}
+		section.recurso_tabs:after,
+		section.recurso_tabs:before {
+			content: "";
+			display: table;
+		}
+		section.recurso_tabs:after {
+			clear: both;
+		}
+		section.recurso_tabs div[role="button"] {
+			color: #000000;
+			background: #3b9638;
+			cursor: pointer;
+			border-top: none;
+			padding: 15px 20px;
+			margin-top:0px;
+			margin-bottom:0px;
+			font-size:18px;
+		}
+		section.recurso_tabs div[role="button"] h3 {
+			margin-top:0px;
+			margin-bottom:0px;
+			font-size:18px;
+		}
+		@media screen and (min-width: 600px) {
+			section.recurso_tabs div[role="button"] {
+				position: relative;
+				width: 33.333333333333336%;
+				height: 20%;
+				display: block;
+			}
+		}
+		section.recurso_tabs ul {
+			zoom: 1;
+			position: relative;
+			height: 147px;
+			overflow:auto;
+			min-height: 100%;
+			border: 1px solid #3b9638;
+			display: none;
+			/*padding: 15px 30px;*/
+			margin-bottom:0px;
+			padding:0px;
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		section.recurso_tabs ul:after,
+		section.recurso_tabs ul:before {
+			content: "";
+			display: table;
+		}
+		section.recurso_tabs ul:after {
+			clear: both;
+		}
+		section.recurso_tabs ul li {
+			list-style: none;
+			padding-top:0px;
+		}
+		@media screen and (min-width: 600px) {
+			section.recurso_tabs ul {
+				position: absolute;
+				width: 66.66666666666667%;
+				right: 0;
+				top: 0;
+				/*padding: 15px 30px;*/
+				border-left: none;
+			}
+			section.recurso_tabs ul li {
+				/*padding-top:40px;*/
+			}
+		}
+		section.recurso_tabs .section_active {
+			cursor: default;
+			color: #3b9638;
+			background: #3b9638;
+			border-left: 10px solid #3b9638;
+		}
+		section.recurso_tabs .section_active + ul {
+			display: block;
+		}
+		div[role="button"] {
+			outline:none;
+		}
+    </style>
+</head>
+<body>
+    <nav id="headerMenu" class="navbar navbar-default navbar-fixed-top">
+    	<div class="container">
+    		<a href="../index-2.html" tabindex="-1"><img id="Logo" src="../imagenes/logo.png" alt="La imagen muestra el logo de la Universidad Tecnológica Santa Catarina con el lema saber hacer para competir." /></a>
+    		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#busqueda, #menu1, #menu2" aria-expanded="false">
+                	&#9776;<span class="sr-only">Menu principal</span>
+    			</button>
+    		</div>
+    		
+            <div class="collapse navbar-collapse" id="menu1" style="background: #3b9638;">
+            
+            	<div class="collapse navbar-collapse navbar-right" id="busqueda">
+                    <form class="navbar-form" role="search" action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+                        <div class="form-group input-group">
+                        	<label for="txtBuscar" class="control-label" style="position:absolute; top:-1000px;">Buscar: </label>      
+                            <input type="hidden" name="si" value="71292325">
+			    <input type="hidden" name="pid" value="r">
+			    <input type="hidden" name="n" value="0">
+			    <input type="hidden" name="_charset_" value="">
+			    <input type="hidden" name="bcd" value="&#247;">
+			    <input type="text" name="query" size="15" class="form-control" placeholder="Buscar" style="font-size:10px;" input x-webkit-speech speech error onwebkitspeechchange="kinduff();">                                                 
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><path d="M 496.131,435.698L 374.855,332.551c-12.537-11.283-25.945-16.463-36.776-15.963C 366.707,283.054, 384.00,239.549, 384.00,192.00 C 384.00,85.961, 298.039,0.00, 192.00,0.00C 85.962,0.00,0.00,85.961,0.00,192.00c0.00,106.039, 85.961,192.00, 192.00,192.00c
+                        47.549,0.00, 91.054-17.293, 124.588-45.922 c-0.50,10.831, 4.68,24.239, 15.963,36.776l 103.147,121.276c 17.661,19.623, 46.511,21.277, 64.11,3.678S 515.754,453.359, 496.131,435.698z M 192.00,320.00c-70.692,0.00-128.00-57.308-128.00-128.00S 121.308,64.00,
+                        192.00,64.00s 128.00,57.308, 128.00,128.00S 262.693,320.00, 192.00,320.00z"></path></svg>    
+                                </button>
+                            </span>
+                        </div>
+                    </form>  
+                </div>
+                
+            </div>
+            
+            <div class="collapse navbar-collapse" id="menu2" style="background: #ffffff;">
+                <ul class="nav navbar-nav" style="border-bottom:8px solid #049bff !important;">
+                    <li><a href="../index-2.html">Inicio</a></li>
+                    <li><a href="../educacionIncluyente/modeloInclusion.html">EDUCACION INCLUYENTE</a></li>
+                    <li><a href="../quienesSomos/rectoria.html">QUIENES SOMOS?</a></li>
+                    <li><a href="../ofertaEducativa/gestion_institucional.html">OFERTA EDUCATIVA</a></li>
+                    <li><a href="../vidaEstudiantil/becas.html">VIDA ESTUDIANTIL</a></li>
+                    <li><a href="../utscvirtual/bienvenida.html">UTSC VIRTUAL</a></li>
+                    <li id="menuItem">
+                    	<a id="btnSubMenu" href="javascript:void(0);" class="activo">---->VINCULACION<----</a>
+                        <ul id="subMenu" class="nav navbar-nav submenu_vinculacion submenu_oculto">
+                            <li style="width:130px;"><a href="">EDUCACION CONTINUA</a></li>
+                            <li style="width:200px;"><a href="">SeGUIMIENTO DE EGRESADOS</a></li>
+                            <li><a href="" style="padding-top:25px; padding-bottom:25px;">BOLSA DE TRABAJO</a></li>
+                            <li><a href="" style="padding-top:25px; padding-bottom:25px;">ESTADIAS</a></li>
+                            <li style="width:140px;"><a href="">SERVICIOS TECNOLOGICOS</a></li>
+                            <li style="width:220px;"><a href="">MOVILIDAD NACIONAL E INTERNACIONAL</a></li>
+                            <li style="width:120px;"><a href="" style="padding-top:25px; padding-bottom:25px;">VISITAS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="menu-lateral">
+                <ul id="navigation" class="item-close">
+                    <li class="item-menu-click">
+                        <a class="item-menu-a" href="javascript:void(0);" title="click here">
+                        	<div class="vertical-centered-text">
+                        		<span><span id="icono-click" class="glyphicon glyphicon-chevron-left"></span></span>
+                            </div>
+                        </a>
+ 
+
+    	</div>
+    </nav>
+    
+    <div class="container-fluid container-base">
+    	<div class="row">
+            <div id="colordefondo">
+                <div id="contenido">
+                    <div id="colordetexto">
+                        <div id="texto">
+                            
+             <div class="col-md-12" style="margin-top:100px;">
+             <h1><strong style="color:#3b9638;">Vinculación</strong></h1>                   
+             <div class="clearfix" style="margin-top:10px;"></div>
+                            
+
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            
+                            <div class="col-md-12" style="margin-top:10px;">
+                                <p><h3>Es la interacción entre las instituciones educativas con el entorno económico, social, gubernamental y educativo. Constituye la plataforma desde la cual el Subsistema de Universidades Tecnológicas teje su red de contactos con el universo del cual surge, y para cuyo desarrollo fue diseñado.</p>
+
+<p>En el marco del modelo educativo de las Universidades Tecnológicas que es 70% practico - 30 % teórico, a través de la vinculación con los diferentes sectores se establecen las colaboraciones en cuanto a espacios, actividades y proyectos donde los estudiantes desarrollen competencias para su éxito profesional.</p>
+
+<p>Esta relación de vinculación se inicia con la firma de un Convenio General, el cual se debe actualizar cada 3 años. Este representa una formalidad para las diferentes colaboraciones entre la Universidad y la empresa o institución con la finalidad de realizar conforme a los requerimientos actividades como: 
+</h3></p>
+                                <p>
+                                	<ul style="margin-left:20px;">
+                                    	<li><h3>Investigación y desarrollo.</h3></li>
+                                        <li><h3>Estadías.</h3></li>
+                                        <li><h3>Estancias docentes.</h3></li>
+										<li><h3>Bolsa de trabajo.</h3></li>
+										<li><h3>Recursos humanos.</h3></li>
+										<li><h3>Capacitación y adiestramiento.</h3></li>
+										<li><h3>Servicios tecnológicos y Visitas. </h3></li>
+
+                                    </ul>
+                                </p>
+                            </div>
+    
+
+    
+    <footer class="footer">
+        <div class="container informacion">
+        	<div class="footer_informacion">
+
+                <div class="col-sm-2 footer-logo" style="width:85px;">
+
+                
+	</script>
+    
+    <script src="../js/scriptMapaDelSitio.js"></script>
+</body>
+
+
+</html>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+guardas el codigo CRTL + S
+git status
+git add -A
+git status 
+git commit -m "Agregue codigo al repositorio, pestaña de vinculacion"
+git config  --global user.email "tu correo a la que tengas asignada tu cuenta de github"
+git commit -m "modifique el archivo"
+git status
+///////////////////////luego trata de ver si funciona con el codigo "git push origin master" a mi no me funcionaba
+solo le di a git push/////////////////////////
+de  modo que no te marque error actualizas la pagina de github y verificas el codigo de vinculacion que se haya actualizado
