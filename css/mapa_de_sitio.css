@@ -1,0 +1,72 @@
+ul.MapaDeSitio {
+	/* The main list elements */
+	width:100%;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+ul.MapaDeSitio li.btnMapaDeSitio a {
+	/* The section titles */
+	display:block;
+	font-size:16px;
+	padding: 5px;
+	overflow:hidden;
+	position:relative;
+	background:#1B772E;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+ul.MapaDeSitio li.btnMapaDeSitio a:hover {
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+	background:#464646;
+	color:#FFFFFF;
+}
+
+/* The hover effects */
+li.btnMapaDeSitio a:hover { background-position: center; }
+li.btnMapaDeSitio a:hover span { background-position: center; }
+
+.dropdownMapaDeSitio {
+	/* The expandable lists */
+	display:none;
+	padding-top:5px;
+	width:100%;
+}
+
+.dropdownMapaDeSitio li {
+	/* Each element in the expandable list */
+	background:#373128;
+	border:1px solid #40392C;
+	color:#CCCCCC;
+}
+
+ul.MapaDeSitio li a {
+  background: #1B772E;
+  color:#000000;
+  display: block;
+  padding: 7px 20px;
+  text-align: center;
+}
+
+.mapa a {
+  text-decoration: none !important;
+  list-style: none !important;
+  background: none !important;
+  text-align: left !important;
+  color: #000;
+}
+
+.mapa p {
+	color:#2A7F00;/*
+	text-align:center;*/
+	font-weight:bold;
+	margin:10px 0 10px 0;
+}
+
+ul.MapaDeSitio li a:hover {
+  background: #464646 !important;
+  color: #fff !important;
+}

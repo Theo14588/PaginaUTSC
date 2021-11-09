@@ -1,0 +1,15 @@
+/*tamaño de la barra*/
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/*fondo del scroll*/
+::-webkit-scrollbar-track {
+	background-color: #009966;
+}
+
+/*elemento del scroll*/
+::-webkit-scrollbar-thumb {
+	background-color: #000000;
+	border-radius: 100px;
+}
